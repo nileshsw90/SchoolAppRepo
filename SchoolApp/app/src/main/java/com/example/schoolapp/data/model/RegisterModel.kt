@@ -1,4 +1,4 @@
-package com.example.schoolapp.model
+package com.example.schoolapp.data.model
 
 data class RegisterModel(val name: String) {
 

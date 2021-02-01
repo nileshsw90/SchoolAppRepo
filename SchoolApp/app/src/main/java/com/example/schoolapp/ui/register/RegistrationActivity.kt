@@ -1,12 +1,12 @@
-package com.example.schoolapp.login
+package com.example.schoolapp.ui.register
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.schoolapp.R
 
-class LoginActivity : AppCompatActivity() {
+class RegistrationActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.activity_registration)
     }
 }

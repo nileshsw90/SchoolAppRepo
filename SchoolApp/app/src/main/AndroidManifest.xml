@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SchoolApp">
-        <activity android:name=".login.LoginActivity"></activity>
-        <activity android:name=".register.RegistrationActivity" />
+        <activity android:name="com.example.schoolapp.ui.login.LoginActivity"></activity>
+        <activity android:name="com.example.schoolapp.ui.register.RegistrationActivity" />
         <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
