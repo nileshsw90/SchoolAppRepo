@@ -1,32 +1,17 @@
 package com.example.schoolapp.data.model
 
-data class RegisterModel(val name: String) {
+data class RegisterModel(
+    val name: String,
+    val age: Int,
+    val roll: Int,
+    val typeOfUser: String,
+    val userAddrress: String
+) {
 
-    var myName: String = name
-    private var age: Int = 0
-    private var roll: Int = 0
-    private var userType: String? = null
-    private var userAddr: String? = null
-
-    constructor(age: Int, myName: String) : this(myName) {
-        this.age = age
-    }
-
-    constructor(age: Int, myName: String, roll: Int) : this(age, myName) {
-        this.roll = roll
-    }
-
-    constructor(age: Int, myName: String, roll: Int, userType: String) : this(age, myName, roll) {
-        this.userType = userType
-    }
-
-    constructor(age: Int, myName: String, roll: Int, userType: String, userAddr: String) : this(
-        age,
-        myName,
-        roll,
-        userType
-    ) {
-        this.userAddr = userAddr
-    }
+    var userName: String = name
+    private var userAge: Int = age
+    private var userRoll: Int = roll
+    private var userType: String = typeOfUser
+    private var userAddr: String = userAddrress
 
 }
